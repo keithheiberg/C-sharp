@@ -20,8 +20,8 @@ namespace C_sharp_p126
             Person owner = new Employee();
             owner.ID = 1;
             Console.WriteLine("Owner's ID = " + owner.ID);
-            IQuittable Quit = new Employee(); ;
-            employee1.Quit(employee1);
+            IQuittable Quit = new Employee();
+            Quit.Quit();
             Console.ReadLine();
         }
     }

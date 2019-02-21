@@ -14,7 +14,7 @@ namespace C_sharp_p126
         // 3. Use polymorphism to create an object of type IQuittable and call the Quit() method on it. 
         // Hint: an object can be of an interface type if it implements that specific interface.
 
-        public void Quit(Employee employee)
+        public void Quit()
         {
             Console.WriteLine("I quit!");
         }
